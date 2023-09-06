@@ -1,5 +1,3 @@
-import { newRectangle, Rectangle } from "./shapes/rectangle.js";
-
 function newRenderer(rectangle: Shape) {
     return {
         draw() {

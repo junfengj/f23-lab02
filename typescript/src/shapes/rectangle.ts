@@ -1,9 +1,3 @@
-interface Rectangle {
-    width: number,
-    height: number,
-    computeArea: () => number
-}
-
 function newRectangle(width: number, height: number): Shape {
     return {
         computeArea: function (): number {
@@ -12,4 +6,4 @@ function newRectangle(width: number, height: number): Shape {
     }
 }
 
-export { Rectangle, newRectangle }
+export { newRectangle }
